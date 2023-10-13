@@ -34,12 +34,14 @@ public class loginController
 	@RequestMapping("/")
 	public String login()
 	{
+		System.out.println("1111");
 		return "login";  // here login is login.jsp web page
 	}
 
 	@RequestMapping("register")
 	public String register()
 	{
+		System.out.println("2222");
 		return "register";  
 
 	}
